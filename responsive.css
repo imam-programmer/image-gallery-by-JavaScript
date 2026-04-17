@@ -1,0 +1,82 @@
+@media (min-width:300px) and (max-width:575px) {
+ div {
+    height: 80px;
+    width: 80px;
+}
+.container {
+    height: 200px;
+    width: 260px;
+}  
+.big-div{
+   height: 55%;
+}
+}
+@media (min-width:380px) and (max-width:459px) {
+.big-div{
+    width: 80vw;
+}
+}
+@media (min-width:460px) and (max-width:530px) {
+.big-div{
+    width: 70vw;
+}
+}
+@media (min-width:531px) and (max-width:575px) {
+.big-div{
+    width: 60vw;
+}
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+ div {
+    height: 100px;
+    width: 100px;
+}
+.container {
+    height: 230px;
+    width: 350px;
+}  
+.big-div{
+    width: 60vw;
+    top: 290px;
+     height: 70%;
+}
+}
+@media (min-width:768px) and (max-width:991px) {
+ div {
+    height: 150px;
+    width: 150px;
+}
+.container {
+    height: 340px;
+    width: 500px;
+   
+}  
+.big-div{
+    width: 70vw;
+    top: 400px;
+     height: 80%;
+}
+}
+@media (min-width:850px) and (max-width:991px) {  
+.big-div{
+    width: 60vw;
+     height: 80%;
+}
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+.big-div{
+    width: 60vw;
+    top: 500px;
+     height: 100%;
+}
+}
+@media (min-width:1200px) and (max-width:1399px) {
+.big-div{
+    width: 60vw;
+    top: 500px;
+     height: 100%;
+}
+}
