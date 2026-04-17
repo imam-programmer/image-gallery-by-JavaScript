@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+     flex-direction: column;
+}
+.container{
+    height: 420px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+   column-gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+   
+    
+}
+div{
+    height: 200px;
+    width: 200px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+}
+.big-div{
+    height: 82vh;
+    width: 80vw;
+    position: absolute;
+    display: none;
+}
+.imag{
+    display: block;
+  
+}
+.imag img{
+    border-radius: 50px;
+}
