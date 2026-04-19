@@ -38,6 +38,9 @@ img{
     object-fit: fill;
     border-radius: 10%;
 }
+img:hover{
+    opacity: 0.5;
+}
 .big-div{
     height: 50%;
     width: 95vw;
@@ -56,6 +59,10 @@ img{
 .imag img{
     border-radius: 50px;
     transition: 0.4s;
+    
+}
+.imag img:hover{
+    opacity: 1;
     
 }
 button{
